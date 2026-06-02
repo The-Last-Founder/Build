@@ -1,4 +1,17 @@
-# Main
-Main repo until we split things up to different ones
+# Welcome
 
-COMING SOON
+We'll build an open-source startup with agents.
+
+## Goals
+
+1. Learn and teach about AI agents for startups
+2. Do it together
+3. Build a real MVP
+
+## Option projects
+
+List of projects: coming soon.
+
+## Contact
+
+Sharon Shinberg — sharon@shineberg.com
