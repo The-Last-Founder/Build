@@ -19,4 +19,4 @@ List of projects: coming soon.
 
 <img width="400" height="230" alt="image" src="https://github.com/user-attachments/assets/0d6ad9b0-7ddc-4472-b18e-8e0a275dd1c6" />
 
-Part of thelastfounder.com
+Part of [thelastfounder.com](http://thelastfounder.com/)
