@@ -1,7 +1,7 @@
 # Welcome
 
 We'll build an open-source startup with agents.
-[Updates via Whatsapp@Linktree](https://linktr.ee/lastfounder) (bottom part)
+[Updates via Whatsapp]([https://linktr.ee/lastfounder](https://chat.whatsapp.com/DgKpG63438y8N7D3pHJ57t)) (bottom part)
 
 ## Goals
 
@@ -18,3 +18,5 @@ List of projects: coming soon.
 - [Sharon Shineberg](https://www.linkedin.com/in/sharonshineberg/)
 
 <img width="400" height="230" alt="image" src="https://github.com/user-attachments/assets/0d6ad9b0-7ddc-4472-b18e-8e0a275dd1c6" />
+
+Part of thelastfounder.com
