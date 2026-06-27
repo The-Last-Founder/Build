@@ -7,7 +7,7 @@ A starter map of tools and practices we may use while building the Build communi
 **Scope**
 
 - **General**: useful for builders across projects.
-- **Johnny**: specifically relevant to the Johnny pilot.
+- **Johnny**: specifically relevant to the [Johnny pilot](https://github.com/The-Last-Founder/Johnny).
 - **Both**: useful generally and also relevant to Johnny.
 
 **Signal**
