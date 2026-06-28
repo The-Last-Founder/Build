@@ -1,12 +1,12 @@
 Ron Gross is inviting you to a scheduled Zoom meeting.
 
-Topic: TheLastFounder - Build
-Time: Jun 30, 2026 08:00 PM Jerusalem
-Join Zoom Meeting
-https://us02web.zoom.us/j/87270380001?pwd=VJ79MGu3q5leTOsTVmX1iWED7P4PIh.1
+Topic: TheLastFounder - Build  
+Time: Jun 30, 2026 08:00 PM Jerusalem  
+Join Zoom Meeting  
+https://us02web.zoom.us/j/87270380001?pwd=VJ79MGu3q5leTOsTVmX1iWED7P4PIh.1  
 
 **Password**
-335785
+335785  
 
 Meeting chat link
 https://us02web.zoom.us/launch/jc/87270380001
