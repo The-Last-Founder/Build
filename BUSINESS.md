@@ -1,3 +1,6 @@
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/05e7aa57-31a7-4b51-80d2-85ba6cd94cda" />
+
+
 # Monetization and Governance Options for Build and QuestBoard
 
 ## Executive summary
@@ -177,3 +180,10 @@ My recommended priority stack is therefore:
 | Low for now | Dual licensing or source-available shift | Premature, legally sticky, and community-costly in the current phase |
 
 If Build eventually grows into something infrastructural, the likely end-state is not a single pure form. It is a **hybrid**: open-source core and community process in public, money handled transparently, maintainers compensated reasonably, and commercial users paying for hosting, support, and reliability. That is the option map most consistent with the current repo, the QuestBoard concept, and the desire to preserve the leverage and charm of a real open-source commons. citeturn1view0turn37view0turn36view0turn23view2
+
+
+# Image prompt
+
+## Banner image
+
+Create a wide 1280×640 editorial banner for a GitHub README called BUSINESS.md, showing an open-source builder community as a living ecosystem: a central transparent commons made of Markdown files, pull requests, project cards, and branching repo paths, surrounded by small teams launching diverse projects, some open-source and some commercial. Visualize money and governance as clean, subtle flows, not greed: sponsorships, paid services, grants, enterprise use, contributor compensation, and reinvestment circling back into the commons. Include human builders and AI agents collaborating as peers through readable workflows, decision gates, and project lifecycles. Style should be optimistic, precise, slightly playful, diagrammatic, modern, founder-friendly, and open-source native. Use clean geometry, soft depth, neutral background, one confident accent color, crisp lighting, and high readability at small size. No stock-photo feeling, no robots shaking hands, no glowing brains, no corporate boardroom, no generic startup clichés, no logos, no readable text.
