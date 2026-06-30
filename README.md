@@ -8,7 +8,13 @@ We'll build a real open-source startup together: choose a pilot, spec the MVP, c
 
 [Join the Community via WhatsApp](https://chat.whatsapp.com/DgKpG63438y8N7D3pHJ57t).
 
-Contribute by picking up [issues](https://github.com/The-Last-Founder/Build/issues), submitting new issues, and more.
+## What to work on
+### Existing issues
+[High priority tasks](https://github.com/orgs/The-Last-Founder/projects/1) or [all issues](https://github.com/The-Last-Founder/Build/issues)
+
+### Submit new issues
+See anything broken or worth improving?
+[Let us know](https://github.com/The-Last-Founder/Build/issues/new)
 
 ## Goals
 
