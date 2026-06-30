@@ -66,7 +66,7 @@ Voiceover:
 Visuals: beginner, designer, engineer, writer, operator, researcher, all entering the same party.  
 Voiceover:
 
-> You do not need to be an expert.  
+> You don't need to be an expert.  
 > If you can build, write, test, design, research, organize, or help people ship, there is a place for you here.
 
 **1:26-1:45 — CTA**  
@@ -109,7 +109,7 @@ Voiceover:
 Visuals: collaborative docs, agent tools, pull requests, roadmap fragments becoming a product.  
 Voiceover:
 
-> We are not here just to discuss the future.  
+> We aren't here just to discuss the future.  
 > We are here to use agents, document what works, teach each other, and launch real things in public.
 
 **1:05-1:30 — The first pilot**  
