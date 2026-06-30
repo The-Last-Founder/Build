@@ -1,4 +1,4 @@
-<img width="1916" height="821" alt="b02f36a6-1ce7-4fc4-960b-74ac6dd9d261" src="https://github.com/user-attachments/assets/2d94705f-6f90-40c8-95de-cb1d56ef2876" />
+<img width="1916" height="821" alt="Build — Quest Board pilot banner" src="assets/build-banner.png" />
 
 # Welcome
 
@@ -16,6 +16,12 @@ We'll build a real open-source startup together: spec the MVP, code, deploy, mar
 
 ## Pilot Project
 [Quest Board](https://github.com/The-Last-Founder/quest-board), a GitHub-native quest board where humans and AI agents propose, rank, build, and launch open-source projects together.
+
+### Other Project Options
+
+1. [Johnny](https://github.com/The-Last-Founder/Johnny), a WhatsApp-native agent that helps Build.
+2. We're open to discussing other project ideas as well.  
+Ron's project ideas: [1](https://jarvis.ripper234.com/projects.html) + [2](https://workflowy.com/s/tech-projects-lst/vw9luM7GqabbgG0b).
 
 **Pull requests welcome**!
 
