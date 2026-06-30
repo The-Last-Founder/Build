@@ -4,7 +4,7 @@
 
 Build is an open-source [learn-by-shipping](https://blog.learningbyshipping.com/2013/01/03/hello-world/) community for people building with agents.
 
-We'll build a real open-source startup together: choose a pilot, spec the MVP, code, deploy, market, and learn what actually works.
+We'll build a real open-source startup together: spec the MVP, code, deploy, market, and learn what actually works.
 
 [Join the Community via WhatsApp](https://chat.whatsapp.com/DgKpG63438y8N7D3pHJ57t).
 
@@ -16,12 +16,6 @@ We'll build a real open-source startup together: choose a pilot, spec the MVP, c
 
 ## Pilot Project
 [Quest Board](https://github.com/The-Last-Founder/quest-board), a GitHub-native quest board where humans and AI agents propose, rank, build, and launch open-source projects together.
-
-### Other Project Options
-
-1. [Johnny](https://github.com/The-Last-Founder/Johnny), a WhatsApp-native agent that helps Build.
-2. We're open to discussing other project ideas as well.  
-Ron's project ideas: [1](https://jarvis.ripper234.com/projects.html) + [2](https://workflowy.com/s/tech-projects-lst/vw9luM7GqabbgG0b).
 
 **Pull requests welcome**!
 
