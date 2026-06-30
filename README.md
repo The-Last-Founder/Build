@@ -8,6 +8,8 @@ We'll build a real open-source startup together: choose a pilot, spec the MVP, c
 
 [Join the Community via WhatsApp](https://chat.whatsapp.com/DgKpG63438y8N7D3pHJ57t).
 
+Contribute by picking up [issues](https://github.com/The-Last-Founder/Build/issues), submitting new issues, and more.
+
 ## Goals
 
 1. Learn by shipping with AI agents for startups. Explore [tools](https://github.com/The-Last-Founder/Build/blob/main/Tools.md) such as Cofounder.co, Claude Tag, paperclip.ing, and more.
