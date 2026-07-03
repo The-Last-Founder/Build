@@ -1,25 +1,66 @@
 #!/usr/bin/env python3
-"""Generate Build one-pager PDF from ONE_PAGER.md content."""
+"""
+Generate the Build one-pager PDF.
+
+Content is authored in ONE_PAGER.md (the human-readable source of truth).
+This script renders that content into a styled, print-ready A4 PDF.
+
+Usage:
+    python3 design/render_one_pager.py [output_path]
+
+    output_path defaults to artifacts/build-one-pager.pdf (relative to the
+    repository root), resolved from the script's own location.
+
+Requirements:
+    pip install reportlab
+    Lato font family (e.g. apt install fonts-lato  or  brew install --cask font-lato)
+"""
 
 import os
+import sys
 from reportlab.lib.pagesizes import A4
-from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.lib.units import mm, cm
-from reportlab.lib.colors import HexColor, white, black
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.lib.units import mm
+from reportlab.lib.colors import HexColor, white
 from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle,
-    HRFlowable, KeepTogether
+    HRFlowable,
 )
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
 # --- Fonts ---
-FONT_DIR = "/usr/share/fonts/truetype/lato"
-pdfmetrics.registerFont(TTFont("Lato", f"{FONT_DIR}/Lato-Regular.ttf"))
-pdfmetrics.registerFont(TTFont("Lato-Bold", f"{FONT_DIR}/Lato-Bold.ttf"))
-pdfmetrics.registerFont(TTFont("Lato-Italic", f"{FONT_DIR}/Lato-Italic.ttf"))
-pdfmetrics.registerFont(TTFont("Lato-Light", f"{FONT_DIR}/Lato-Light.ttf"))
-pdfmetrics.registerFont(TTFont("Lato-Black", f"{FONT_DIR}/Lato-Black.ttf"))
+# Search common platform locations; fall back to reportlab's built-in Helvetica
+# if Lato is not installed.
+_LATO_CANDIDATES = [
+    "/usr/share/fonts/truetype/lato",           # Debian/Ubuntu
+    "/usr/share/fonts/lato",                    # other Linux
+    os.path.expanduser("~/Library/Fonts"),      # macOS user fonts
+    "/Library/Fonts",                           # macOS system fonts
+    os.path.join(os.environ.get("WINDIR", ""), "Fonts"),  # Windows
+]
+
+def _find_font_dir():
+    for d in _LATO_CANDIDATES:
+        if d and os.path.isfile(os.path.join(d, "Lato-Regular.ttf")):
+            return d
+    return None
+
+_FONT_DIR = _find_font_dir()
+if _FONT_DIR:
+    pdfmetrics.registerFont(TTFont("Lato",        f"{_FONT_DIR}/Lato-Regular.ttf"))
+    pdfmetrics.registerFont(TTFont("Lato-Bold",   f"{_FONT_DIR}/Lato-Bold.ttf"))
+    pdfmetrics.registerFont(TTFont("Lato-Italic", f"{_FONT_DIR}/Lato-Italic.ttf"))
+    pdfmetrics.registerFont(TTFont("Lato-Light",  f"{_FONT_DIR}/Lato-Light.ttf"))
+    pdfmetrics.registerFont(TTFont("Lato-Black",  f"{_FONT_DIR}/Lato-Black.ttf"))
+    _BODY_FONT  = "Lato"
+    _BOLD_FONT  = "Lato-Bold"
+    _BLACK_FONT = "Lato-Black"
+else:
+    print("⚠  Lato fonts not found — falling back to Helvetica.", file=sys.stderr)
+    _BODY_FONT  = "Helvetica"
+    _BOLD_FONT  = "Helvetica-Bold"
+    _BLACK_FONT = "Helvetica-Bold"
 
 # --- Brand colours ---
 DARK_BG    = HexColor("#0D1117")   # GitHub-dark near-black
@@ -40,7 +81,7 @@ def make_styles():
 
     styles["title"] = ParagraphStyle(
         "title",
-        fontName="Lato-Black",
+        fontName=_BLACK_FONT,
         fontSize=32,
         leading=38,
         textColor=white,
@@ -48,7 +89,7 @@ def make_styles():
     )
     styles["subtitle"] = ParagraphStyle(
         "subtitle",
-        fontName="Lato",
+        fontName=_BODY_FONT,
         fontSize=13,
         leading=18,
         textColor=TEXT_LIGHT,
@@ -56,7 +97,7 @@ def make_styles():
     )
     styles["section_header"] = ParagraphStyle(
         "section_header",
-        fontName="Lato-Bold",
+        fontName=_BOLD_FONT,
         fontSize=13,
         leading=17,
         textColor=ACCENT,
@@ -65,7 +106,7 @@ def make_styles():
     )
     styles["body"] = ParagraphStyle(
         "body",
-        fontName="Lato",
+        fontName=_BODY_FONT,
         fontSize=9.5,
         leading=14,
         textColor=TEXT_LIGHT,
@@ -73,7 +114,7 @@ def make_styles():
     )
     styles["body_dim"] = ParagraphStyle(
         "body_dim",
-        fontName="Lato",
+        fontName=_BODY_FONT,
         fontSize=9,
         leading=13,
         textColor=TEXT_DIM,
@@ -81,7 +122,7 @@ def make_styles():
     )
     styles["bullet"] = ParagraphStyle(
         "bullet",
-        fontName="Lato",
+        fontName=_BODY_FONT,
         fontSize=9.5,
         leading=14,
         textColor=TEXT_LIGHT,
@@ -91,7 +132,7 @@ def make_styles():
     )
     styles["cta_label"] = ParagraphStyle(
         "cta_label",
-        fontName="Lato-Bold",
+        fontName=_BOLD_FONT,
         fontSize=10,
         leading=14,
         textColor=ACCENT2,
@@ -99,7 +140,7 @@ def make_styles():
     )
     styles["footer"] = ParagraphStyle(
         "footer",
-        fontName="Lato",
+        fontName=_BODY_FONT,
         fontSize=8,
         leading=11,
         textColor=TEXT_DIM,
@@ -107,7 +148,7 @@ def make_styles():
     )
     styles["tag"] = ParagraphStyle(
         "tag",
-        fontName="Lato-Bold",
+        fontName=_BOLD_FONT,
         fontSize=8,
         leading=11,
         textColor=ACCENT,
@@ -360,6 +401,9 @@ def build_pdf(output_path: str):
 
 
 if __name__ == "__main__":
-    out = "/home/runner/work/Build/Build/artifacts/build-one-pager.pdf"
+    # Default output: <repo_root>/artifacts/build-one-pager.pdf
+    _repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    _default_out = os.path.join(_repo_root, "artifacts", "build-one-pager.pdf")
+    out = sys.argv[1] if len(sys.argv) > 1 else _default_out
     os.makedirs(os.path.dirname(out), exist_ok=True)
     build_pdf(out)
