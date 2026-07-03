@@ -34,6 +34,13 @@ Ron's project ideas: [1](https://jarvis.ripper234.com/projects.html) + [2](https
 
 **Pull requests welcome**!
 
+## One Pager
+
+A concise summary of what Build is, the problem we solve, and our unique advantages:
+
+- 📄 **[One Pager (PDF)](artifacts/build-one-pager.pdf)** — printable / shareable single-page overview
+- 📝 **[One Pager (Markdown source)](ONE_PAGER.md)** — editable source of truth
+
 ## How we'll do it
 We're starting with a Cofounder.co project.  
 See [our principles to working with Cofounder.co](https://github.com/The-Last-Founder/Build/blob/main/CoFounder.co.md). 
