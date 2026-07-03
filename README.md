@@ -66,6 +66,19 @@ Potentially, some or all of the revenue could be funneled back into this open-so
 
 Open question - TODO
 
+## What's the incentive of people to share their ideas with the community & world?
+
+TODO
+
+Some thoughts are:
+1. Gather more project members, traffic/ users, funding
+2. Get advice and help on building
+3. ...
+
+=== But isn't that dangerous? Won't someone copy them?
+TODO
+
+
 ## ADD YOUR OWN QUESTIONS
 
 Send pull requests.
