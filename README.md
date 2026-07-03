@@ -20,7 +20,7 @@ See anything broken or worth improving?
 
 1. Learn by shipping with AI agents for startups. Explore [tools](https://github.com/The-Last-Founder/Build/blob/main/Tools.md) such as Cofounder.co, Claude Tag, paperclip.ing, and more.
 2. Teach each other what actually works.
-3. Build and launch a real MVP.
+3. Build and launch a real [MDP](research/mdp-vs-mvp.md) — the smallest thing someone will genuinely love.
 
 ## Pilot Project
 [Quest Board](https://github.com/The-Last-Founder/quest-board), a GitHub-native quest board where humans and AI agents propose, rank, build, and launch open-source projects together.
