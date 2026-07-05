@@ -23,6 +23,10 @@ See anything broken or worth improving?
 2. Teach each other what actually works.
 3. Build and launch a real MVP.
 
+## Research
+
+- [The AI Agent / Multi-Agent / Autonomous-Company Enabling Stack (Mid-2026)](research/ai-agent-multi-agent-autonomous-company-stack-mid-2026.md)
+
 ## Pilot Project
 [Quest Board](https://github.com/The-Last-Founder/quest-board), a GitHub-native quest board where humans and AI agents propose, rank, build, and launch open-source projects together.
 

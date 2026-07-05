@@ -4,6 +4,12 @@
 
 A starter map of tools and practices we may use while building the Build community and the Johnny pilot.
 
+## Ecosystem research context
+
+For a deeper ecosystem scan, see [The AI Agent / Multi-Agent / Autonomous-Company Enabling Stack (Mid-2026)](research/ai-agent-multi-agent-autonomous-company-stack-mid-2026.md).
+
+Build takeaway: infrastructure and orchestration are currently more mature than full autonomous-company app claims, so we should prioritize practical, testable tool workflows over broad autonomy narratives.
+
 ## How to read this
 
 **Scope**
