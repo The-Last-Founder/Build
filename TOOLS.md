@@ -46,6 +46,7 @@ The table is sorted roughly by first-sprint usefulness, then by Johnny MVP relev
 
 - **Johnny-specific tools are marked in the Scope column.**
 - **Bold tools** are the current primary candidates: Cofounder.co, Claude Code, Codex, Claude Tag, and open-bsp-api.
+- **Claude Tag is likely a later-stage fit for Build** when Slack activity is dense enough to justify a shared chat-native agent; for sparse OSS coordination, GitHub-native artifacts are the safer default.
 - **Loop Engineering is a practice, not a tool**, but it belongs here because it is central to how builders will use agents well.
 - **Trello was intentionally removed** because it is not central enough to the AI-native Johnny workflow right now.
 - **The task “Upload Tools.md to Johnny GitHub” is not a tool**, so it is intentionally not listed in the table.
