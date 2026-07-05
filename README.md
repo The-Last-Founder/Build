@@ -19,7 +19,7 @@ See anything broken or worth improving?
 
 ## Goals
 
-1. Learn by shipping with AI agents for startups. Explore [tools](https://github.com/The-Last-Founder/Build/blob/main/Tools.md) such as Cofounder.co, Claude Tag, paperclip.ing, and more.
+1. Learn by shipping with AI agents for startups. Explore [tools](https://github.com/The-Last-Founder/Build/blob/main/TOOLS.md) such as Cofounder.co, Claude Tag, paperclip.ing, and more.
 2. Teach each other what actually works.
 3. Build and launch a real MVP.
 
