@@ -6,6 +6,12 @@ Image created ~29.6.26
 
 A starter map of tools and practices we may use while building the Build community and the Johnny pilot.
 
+## Related list
+
+- [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools) (broad ecosystem reference list)
+- Value add of this file: a startup-focused shortlist in Build format (Scope, Why for us, and current signal), not a general directory.
+- Action: import only a few high-fit tools from broad lists when they are clearly useful for startup execution in Build/Johnny.
+
 ## How to read this
 
 **Scope**
