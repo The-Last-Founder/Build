@@ -40,7 +40,6 @@ See anything broken or worth improving?
 We're starting with a Cofounder.co project.  
 See [our principles to working with Cofounder.co](https://github.com/The-Last-Founder/Build/blob/main/CoFounder.co.md). 
 For launch collateral, see the [intro video brief](design/INTRO_VIDEO.md), [rendered video outputs](artifacts/videos), the selected [WhatsApp group icon SVG](design/whatsapp-group-icons/build-whatsapp-icon.svg), its [PNG export](design/whatsapp-group-icons/build-whatsapp-icon.png), and [alternatives](design/whatsapp-group-icons).
-For research notes, see [research/gh-copilot-claude-tag-sparse-open-source-projects.md](research/gh-copilot-claude-tag-sparse-open-source-projects.md).
 
 ## About Us
 
