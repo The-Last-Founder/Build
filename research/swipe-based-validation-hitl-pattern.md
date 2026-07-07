@@ -1,6 +1,6 @@
 # Swipe-Based Validation as a Human-in-the-Loop (HITL) Pattern
 
-Source: Build issue [#53](https://github.com/The-Last-Founder/Build/issues/53), PR comment by @ripper234 (comment id: `4904654180`).
+Source: Build issue [#53](https://github.com/The-Last-Founder/Build/issues/53), PR comment by @ripper234 (comment ID 4904654180).
 
 ## Summary
 
@@ -38,7 +38,7 @@ Infra note from the source: **LangGraph interrupts + checkpoints** can make this
 - Add timeouts (auto-reject or escalate).
 - Keep a complete audit trail.
 - Include **edit**, not only accept/reject.
-- Use inline editable chips and confidence labels (for example: `Confident` / `Needs review`).
+- Use inline editable chips and confidence labels (for example: "Confident" / "Needs review").
 
 ## Primary risk
 
