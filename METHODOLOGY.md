@@ -145,7 +145,7 @@ Possible future chapters:
 
 - Product discovery with AI
 - Token Economy (how to achive more with less)
-- MVP scoping
+- [MDP/MVP scoping](research/mdp-vs-mvp.md)
 - Agentic coding workflows
 - AI-assisted design
 - Testing and QA
