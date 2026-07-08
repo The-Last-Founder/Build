@@ -19,7 +19,7 @@ See anything broken or worth improving?
 
 ## Goals
 
-1. Learn by shipping with AI agents for startups. Explore [tools](https://github.com/The-Last-Founder/Build/blob/main/TOOLS.md) such as Cofounder.co, Claude Tag, paperclip.ing, and more.
+1. Learn by shipping with AI agents for startups. Explore [tools](https://github.com/The-Last-Founder/Build/blob/main/TOOLS.md) such as Cofounder.co, Claude Code, and more. See [AI Tooling Policy](https://github.com/The-Last-Founder/Build/blob/main/TOOLS.md#ai-tooling-policy) for what tools contributors can use and who pays.
 2. Teach each other what actually works.
 3. Build and launch a real [MDP](research/mdp-vs-mvp.md) — the smallest thing someone will genuinely love.
 

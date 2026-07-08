@@ -17,6 +17,51 @@ Build takeaway: infrastructure and orchestration are currently more mature than 
 - [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools) (broad ecosystem reference list)
 - Value add of this file: a startup-focused shortlist in Build format (Scope, Why for us, and current signal), not a general directory.
 
+## AI Tooling Policy
+
+This section explains what AI tools contributors can actually use, who pays, and how agent-assisted contribution works.
+
+### Tool classifications
+
+| Tool | Access model | Cost model | Fit for sparse contributors | Current recommendation |
+|---|---|---|---|---|
+| [GitHub Copilot](https://github.com/features/copilot) | Per user/seat; org-assigned seat for orgs | Paid plan (Individual, Business, or Enterprise) + AI premium request credits | **Weak for many occasional contributors** — per-seat cost makes broad access expensive for a sparse OSS community | Optional / maintainer experiment; not the default for contributors |
+| [Claude Tag](https://www.anthropic.com/news/introducing-claude-tag) | Claude Team or Enterprise + Slack workspace setup | Org usage balance / spend limit for channel work | Potentially better than per-seat once Slack is active, but **not available to free or individual users** | Reference + possible future pilot; not a contributor requirement now |
+| [Claude Code](https://github.com/anthropics/claude-code) / [Codex](https://github.com/openai/codex) | Individual plan or API key | User's own subscription / API key | **Good if contributor already has access** | Bring your own; or maintainer-run on request |
+| [Aider](https://aider.chat/) | Local CLI + Git | Contributor's own API key or subscription | **Good BYO path** — runs locally, no special platform required | Optional / bring your own |
+| [OpenHands](https://docs.openhands.dev/openhands/usage/run-openhands/github-action) | OSS; can run as a GitHub Action | Maintainer's API key / token budget / infra | **Strong candidate for maintainer-run, token-budgeted issue-to-PR runs** | Under evaluation |
+| [SWE-agent](https://swe-agent.com/latest/) | OSS, model-provider agnostic | Maintainer's API key / token budget / infra | **Strong candidate** — model-agnostic and well-suited to issue-to-PR automation | Under evaluation |
+
+### Contributor AI tooling rules
+
+1. **GitHub Copilot and Claude Tag are not required for contributors.** Do not assume assigned seats or shared org credits are available.
+2. **GitHub Issues and Pull Requests are the source of truth.** All work lands as a PR; agent output is no exception.
+3. **Copilot Cloud Agent and Claude Tag are maintainer/steward experiments**, not baseline contributor infrastructure.
+4. **Contributors bring their own AI tools** if they have them (Claude Code, Codex, Aider, Cursor, etc.). No tooling requirement is imposed.
+5. **Agent-assisted contribution path:** if a contributor needs agent help they can comment `/agent-help <request>` on a GitHub issue. A maintainer decides whether to run an agent. Agent output must come back as a PR, a draft PR, or a plan comment — never as an automatic merge.
+6. **No automatic agent runs on arbitrary issue text from untrusted users.** Maintainer opt-in only.
+
+### OpenHands vs SWE-agent (candidate token-budgeted runners)
+
+Both are OSS tools that can turn a GitHub issue into a PR using a shared API key/token budget controlled by maintainers. Neither requires contributors to have paid AI accounts.
+
+| | [OpenHands](https://docs.openhands.dev/openhands/usage/run-openhands/github-action) | [SWE-agent](https://swe-agent.com/latest/) |
+|---|---|---|
+| Model support | Any OpenAI-compatible API, Anthropic, local models | Model-agnostic (OpenAI, Anthropic, local, others) |
+| GitHub Action | Yes — first-class GitHub Action support | Yes — can be run in CI/CD pipelines |
+| Maturity | Active OSS, used in research and production workflows | Research origin (Princeton NLP), active OSS |
+| Best for | Full agent loop with persistent context and GUI | Focused issue-to-PR with structured edit/patch output |
+| Cost control | Token budget via API key; no per-seat cost | Token budget via API key; no per-seat cost |
+
+**Recommendation:** evaluate OpenHands GitHub Action first as a maintainer-run experiment on a small labeled set of issues.
+
+### Open question
+
+> **Do we want to fund a small shared token budget for maintainer-approved agent runs?**
+> This would let maintainers run OpenHands or SWE-agent on contributor-requested issues without each contributor needing a paid account. Requires deciding a monthly spend cap and who controls the API key.
+
+---
+
 ## How to read this
 
 **Scope**
@@ -47,11 +92,14 @@ The table is sorted roughly by first-sprint usefulness, then by Johnny MVP relev
 | [base44](https://base44.com/) | General | AI app builder | AI-native app builder focused on quickly creating production-style internal and web apps. | Relevant comparison point for no-code/low-code AI product building versus code-first agent workflows. | Active commercial product. | Emerging product with growing founder/operator interest. |
 | [Bolt.new](https://bolt.new/) | General | AI app builder | Browser-based AI coding environment that scaffolds and edits full-stack apps from prompts. | Similar benchmark for rapid idea-to-prototype loops and evaluating tradeoffs against local coding agents. | Active commercial product. | Widely used in prompt-to-app experimentation workflows. |
 | [ctx](https://github.com/stevesolun/ctx) | Both | Agent context / tool routing | Graph-backed recommendation layer for skills, agents, MCP servers, and harnesses, with CLI and dashboard workflows. | Companion to Claude Code and Codex: helps builders load the right context bundle for the current task without bloating agent sessions. | Active MIT OSS Python package on PyPI. | Ships a large recommendation graph: 68k+ skills, 10k+ MCP servers, 467 agents, and 207 harnesses. |
-| [GitHub Copilot](https://github.com/features/copilot) | Both | Coding assistant / agent | AI coding assistant inside GitHub, IDEs, CLI, and PR workflows. | Lowest-friction tool for builders already living inside GitHub. | Mature GitHub product. | Very broad adoption. |
+| [GitHub Copilot](https://github.com/features/copilot) | Both | Coding assistant / agent | AI coding assistant inside GitHub, IDEs, CLI, and PR workflows. | Lowest-friction tool for builders already living inside GitHub. **Access requires a paid plan or org seat — not the default for sparse OSS contributors.** See [plans](https://docs.github.com/en/copilot/get-started/plans). | Mature GitHub product. | Very broad adoption. Maintainer experiment / optional for contributors. |
+| [Aider](https://aider.chat/) | Both | Agentic coding (local CLI) | Local AI pair-programmer for the terminal; integrates with Git and supports multiple model providers via contributor's own API key. | Good bring-your-own path for contributors who already have an API key; no platform account required. | Active OSS, widely used. | Strong BYO option for contributors. |
+| [OpenHands](https://docs.openhands.dev/openhands/usage/run-openhands/github-action) | Both | Issue-to-PR agent runner | OSS agent that can take a GitHub issue and produce a PR using a maintainer-controlled API key or token budget. First-class GitHub Action support. | Candidate for maintainer-run, token-budgeted agent runs so contributors without paid AI access can still get agent help. | Active OSS; GitHub Action available. | Strong candidate — under evaluation. |
+| [SWE-agent](https://swe-agent.com/latest/) | Both | Issue-to-PR agent runner | OSS, model-agnostic agent that converts GitHub issues into structured patches/PRs. Research origin (Princeton NLP), CI/CD compatible. | Parallel candidate to OpenHands for maintainer-controlled agent runs; model-agnostic gives flexibility over cost/model choice. | Active OSS; CI/CD pipeline support. | Strong candidate — under evaluation. |
 | [OpenClaw](https://github.com/openclaw/openclaw) | Both | Personal agent runtime | Self-hosted personal AI assistant that runs across chat channels and devices. | Candidate reference/backend for chat-native agent architecture and task automation. | Active OSS. | Very high GitHub traction. |
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Both | Persistent agent runtime | Self-improving agent with memory, skills, messaging gateways, and multi-platform execution. | Candidate backend/reference for persistent memory, agent skills, and long-running routines. | Active OSS, with June 2026 releases. | High relevance for persistent-agent patterns. |
 | [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | Both | Self-hosted AI workspace | Self-hosted AI workspace for chat, agents, research, documents, email, notes, calendar, and local model workflows. | Strong reference for an integrated builder workspace that combines agent operations, knowledge work, and personal backoffice tools in one place. | Active OSS; default `dev` branch with curated `main` branch. | Very high current GitHub traction (~81k stars since May 2026). |
-| [**Claude Tag**](https://www.anthropic.com/news/introducing-claude-tag) | Both | Team agent in chat | Lets teams tag Claude inside Slack channels and delegate work. | Strong reference for Johnny’s “shared teammate in a group chat” behavior. | Released 2026-06-23, beta. | Anthropic Team/Enterprise beta. |
+| [Claude Tag](https://www.anthropic.com/news/introducing-claude-tag) | Both | Team agent in chat | Lets teams tag Claude inside Slack channels and delegate work. | Strong reference for Johnny's "shared teammate in a group chat" behavior. **Requires Claude Team or Enterprise plan plus a Slack workspace — not available to free or individual users.** | Released 2026-06-23, beta. | Anthropic Team/Enterprise beta. Reference + possible later pilot. |
 | [Loop Engineering](https://www.oreilly.com/radar/loop-engineering/) | General | Practice / workflow | Designing feedback loops around agents: plan, act, verify, adjust, repeat. | Core skill to teach builders: stop prompting once, start designing reliable loops. | Emerging 2026 practice. | High relevance, not a product. |
 | [Ponytail](https://github.com/DietrichGebert/ponytail) | General | Agent skill / ruleset | Makes coding agents prefer the smallest working solution and avoid overengineering. | Useful default skill/ruleset so agents ship less bloat and simpler code. | Active OSS. | Strong fit for builder discipline. |
 | [Talk To My Agent](https://www.talktomyagent.io/) | General | Voice gateway | Gives an OpenClaw-style agent a real phone number. | Later-stage inspiration for voice access, support calls, or personal assistant workflows. | Active commercial product. | Niche but directly adjacent. |
@@ -63,11 +111,14 @@ The table is sorted roughly by first-sprint usefulness, then by Johnny MVP relev
 ## Notes
 
 - **Johnny-specific tools are marked in the Scope column.**
-- **Bold tools** are the current primary candidates: Cofounder.co, Claude Code, Codex, Claude Tag, and open-bsp-api.
-- **Claude Tag is likely a later-stage fit for Build** when Slack activity is dense enough to justify a shared chat-native agent; for sparse OSS coordination, GitHub-native artifacts are the safer default.
+- **Bold tools** are the current primary candidates: Cofounder.co, Claude Code, Codex, and open-bsp-api.
+- **GitHub Copilot is useful but not the default model for broad sparse open-source contribution.** Access requires a paid plan or org-assigned seat; see [AI Tooling Policy](#ai-tooling-policy) above.
+- **Claude Tag is Slack + Team/Enterprise based** — not available to free or individual users and not a contributor requirement now. It is a good reference for chat-native team-agent patterns and potentially worth a pilot later, but for sparse OSS coordination GitHub-native artifacts are the safer default.
+- **OpenHands and SWE-agent are the primary candidates for a token-budgeted issue-to-PR path** for contributors who do not have paid AI tooling.
+- **Aider is the recommended bring-your-own CLI option** for contributors who already have an API key.
 - **Loop Engineering is a practice, not a tool**, but it belongs here because it is central to how builders will use agents well.
 - **Trello was intentionally removed** because it is not central enough to the AI-native Johnny workflow right now.
-- **The task “Upload Tools.md to Johnny GitHub” is not a tool**, so it is intentionally not listed in the table.
+- **The task "Upload Tools.md to Johnny GitHub" is not a tool**, so it is intentionally not listed in the table.
 - This file should stay concise. Add new tools only when someone actually plans to try them, teach them, or integrate them.
 
 
