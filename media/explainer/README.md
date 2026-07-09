@@ -17,7 +17,7 @@ It uses the material already in this repository to show the essential project ta
 
 ## Animated explainer
 
-[A 45-second animated explainer](https://the-last-founder.github.io/quest-board/explainer.html) of what Quest Board is and why it exists.
+[A 45-second animated explainer](https://the-last-founder.github.io/Build/media/explainer/explainer.html) of what Quest Board is and why it exists.
 
 It is a single self-contained HTML file ([`explainer.html`](explainer.html)) animated with CSS and a small timeline script, following the visuals-as-code principle: the narration source lives in [`design/explainer/EXPLAINER_SCRIPT.md`](design/explainer/EXPLAINER_SCRIPT.md), and any rendered MP4 is a generated artifact.
 
