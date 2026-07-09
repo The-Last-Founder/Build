@@ -4,7 +4,7 @@
 
 Build is an open-source [learn-by-shipping](https://blog.learningbyshipping.com/2013/01/03/hello-world/) community for people building with agents.
 
-We'll build a real open-source startup together: spec the MVP, code, deploy, market, and learn what actually works.
+We'll build a real open-source startup together: choose a pilot, spec the MVP, code, deploy, market, and learn what actually works.
 
 [Join the Community via WhatsApp](https://chat.whatsapp.com/DgKpG63438y8N7D3pHJ57t).
 
