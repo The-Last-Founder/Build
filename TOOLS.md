@@ -1,8 +1,21 @@
 # Tools
 
+Image created ~29.6.26
+
 <img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/9feabdaf-616a-4041-ab92-5dc5331b0062" />
 
 A starter map of tools and practices we may use while building the Build community and the Johnny pilot.
+
+## Ecosystem research context
+
+For a deeper ecosystem scan, see [The AI Agent / Multi-Agent / Autonomous-Company Enabling Stack (Mid-2026)](research/ai-agent-multi-agent-autonomous-company-stack-mid-2026.md).
+
+Build takeaway: infrastructure and orchestration are currently more mature than full autonomous-company app claims, so we should prioritize practical, testable tool workflows over broad autonomy narratives.
+
+## Related list
+
+- [Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools) (broad ecosystem reference list)
+- Value add of this file: a startup-focused shortlist in Build format (Scope, Why for us, and current signal), not a general directory.
 
 ## How to read this
 
@@ -29,14 +42,20 @@ The table is sorted roughly by first-sprint usefulness, then by Johnny MVP relev
 | [**Cofounder.co**](https://cofounder.co/) | Both | Company agent OS | AI company OS across engineering, sales, marketing, design, finance, and ops. | Main harness for starting the project, coordinating agents, and testing AI-native startup workflows. | Active commercial product. | Primary starting harness. |
 | [**Claude Code**](https://github.com/anthropics/claude-code) | Both | Agentic coding | Coding agent for terminal, IDE, GitHub workflows, and repo changes. | Main implementation tool for coding, reviewing, debugging, docs, and PR workflows. | Mature Anthropic coding product with active releases. | Official Anthropic tool; high builder relevance. |
 | [**Codex**](https://github.com/openai/codex) | Both | Agentic coding | OpenAI coding agent for CLI, IDE, app, and cloud workflows. | Second coding agent for parallel implementation, review, and comparison with Claude Code. | Active OpenAI coding product and OSS CLI. | Official OpenAI tool; high builder relevance. |
+| [Claude Usage Dashboard](https://github.com/phuryn/claude-usage) | Both | Usage analytics | Reads local Claude Code logs and turns them into usage charts and cost estimates. | Helps builders track agent usage and spend, and tune workflows from real usage data. | Active OSS CLI/web app with VS Code extension support. | Purpose-built for Claude Code visibility across API, Pro, and Max plans. |
+| [Lovable](https://lovable.dev/) | General | AI app builder | Prompt-to-app builder for generating and iterating full-stack web apps in the browser. | Useful reference for fast MVP prototyping and comparing app-builder workflows with agentic coding tools. | Active commercial product. | Strong current mindshare in AI-native builder communities. |
+| [base44](https://base44.com/) | General | AI app builder | AI-native app builder focused on quickly creating production-style internal and web apps. | Relevant comparison point for no-code/low-code AI product building versus code-first agent workflows. | Active commercial product. | Emerging product with growing founder/operator interest. |
+| [Bolt.new](https://bolt.new/) | General | AI app builder | Browser-based AI coding environment that scaffolds and edits full-stack apps from prompts. | Similar benchmark for rapid idea-to-prototype loops and evaluating tradeoffs against local coding agents. | Active commercial product. | Widely used in prompt-to-app experimentation workflows. |
 | [ctx](https://github.com/stevesolun/ctx) | Both | Agent context / tool routing | Graph-backed recommendation layer for skills, agents, MCP servers, and harnesses, with CLI and dashboard workflows. | Companion to Claude Code and Codex: helps builders load the right context bundle for the current task without bloating agent sessions. | Active MIT OSS Python package on PyPI. | Ships a large recommendation graph: 68k+ skills, 10k+ MCP servers, 467 agents, and 207 harnesses. |
 | [GitHub Copilot](https://github.com/features/copilot) | Both | Coding assistant / agent | AI coding assistant inside GitHub, IDEs, CLI, and PR workflows. | Lowest-friction tool for builders already living inside GitHub. | Mature GitHub product. | Very broad adoption. |
 | [OpenClaw](https://github.com/openclaw/openclaw) | Both | Personal agent runtime | Self-hosted personal AI assistant that runs across chat channels and devices. | Candidate reference/backend for chat-native agent architecture and task automation. | Active OSS. | Very high GitHub traction. |
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Both | Persistent agent runtime | Self-improving agent with memory, skills, messaging gateways, and multi-platform execution. | Candidate backend/reference for persistent memory, agent skills, and long-running routines. | Active OSS, with June 2026 releases. | High relevance for persistent-agent patterns. |
+| [Odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | Both | Self-hosted AI workspace | Self-hosted AI workspace for chat, agents, research, documents, email, notes, calendar, and local model workflows. | Strong reference for an integrated builder workspace that combines agent operations, knowledge work, and personal backoffice tools in one place. | Active OSS; default `dev` branch with curated `main` branch. | Very high current GitHub traction (~81k stars since May 2026). |
 | [**Claude Tag**](https://www.anthropic.com/news/introducing-claude-tag) | Both | Team agent in chat | Lets teams tag Claude inside Slack channels and delegate work. | Strong reference for Johnny’s “shared teammate in a group chat” behavior. | Released 2026-06-23, beta. | Anthropic Team/Enterprise beta. |
 | [Loop Engineering](https://www.oreilly.com/radar/loop-engineering/) | General | Practice / workflow | Designing feedback loops around agents: plan, act, verify, adjust, repeat. | Core skill to teach builders: stop prompting once, start designing reliable loops. | Emerging 2026 practice. | High relevance, not a product. |
 | [Ponytail](https://github.com/DietrichGebert/ponytail) | General | Agent skill / ruleset | Makes coding agents prefer the smallest working solution and avoid overengineering. | Useful default skill/ruleset so agents ship less bloat and simpler code. | Active OSS. | Strong fit for builder discipline. |
 | [Talk To My Agent](https://www.talktomyagent.io/) | General | Voice gateway | Gives an OpenClaw-style agent a real phone number. | Later-stage inspiration for voice access, support calls, or personal assistant workflows. | Active commercial product. | Niche but directly adjacent. |
+| [WisprFlow](https://wisprflow.ai/) | General | Voice input / dictation | AI-powered voice dictation that works system-wide in any app, with context-aware formatting, filler-word removal, and voice editing. | Lets builders write faster by dictating prompts, docs, and messages; useful for high-volume text work across all tools. | Active commercial product; free tier available. | Strong adoption; widely reviewed as leading AI dictation tool. |
 | [**open-bsp-api**](https://github.com/matiasbattocchia/open-bsp-api) | Johnny | WhatsApp / Instagram infra | Self-hostable WhatsApp and Instagram Business API platform by Matías Battocchia. | Most directly relevant infrastructure candidate for Johnny’s WhatsApp-native MVP. | Active OSS. | Small repo, very high strategic relevance. |
 | [Any.do](https://www.any.do/) | Johnny | Task management | Tasks, lists, calendar, reminders, WhatsApp task capture, AI assistant, and team boards. | Integration candidate and UX reference for Johnny’s tasks, reminders, and AI-assisted task capture. | Mature commercial product. | Mature product; WhatsApp support; 40M+ users claimed. |
 | [monday.com](https://monday.com/) | Johnny | Work management | Work OS for teams, projects, workflows, CRM, dev, service, automations, and AI agents. | Integration candidate for teams that outgrow Markdown task files. | Mature commercial product. | Mature AI work platform. |
@@ -45,6 +64,7 @@ The table is sorted roughly by first-sprint usefulness, then by Johnny MVP relev
 
 - **Johnny-specific tools are marked in the Scope column.**
 - **Bold tools** are the current primary candidates: Cofounder.co, Claude Code, Codex, Claude Tag, and open-bsp-api.
+- **Claude Tag is likely a later-stage fit for Build** when Slack activity is dense enough to justify a shared chat-native agent; for sparse OSS coordination, GitHub-native artifacts are the safer default.
 - **Loop Engineering is a practice, not a tool**, but it belongs here because it is central to how builders will use agents well.
 - **Trello was intentionally removed** because it is not central enough to the AI-native Johnny workflow right now.
 - **The task “Upload Tools.md to Johnny GitHub” is not a tool**, so it is intentionally not listed in the table.

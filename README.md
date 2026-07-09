@@ -1,4 +1,5 @@
-<img width="1916" height="821" alt="b02f36a6-1ce7-4fc4-960b-74ac6dd9d261" src="https://github.com/user-attachments/assets/2d94705f-6f90-40c8-95de-cb1d56ef2876" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/39fbfdb7-5dda-48c8-942c-2e6871fb5911" />
+
 
 # Welcome
 
@@ -8,28 +9,41 @@ We'll build a real open-source startup together: choose a pilot, spec the MVP, c
 
 [Join the Community via WhatsApp](https://chat.whatsapp.com/DgKpG63438y8N7D3pHJ57t).
 
+## What to work on
+### Existing issues
+[High priority tasks](https://github.com/orgs/The-Last-Founder/projects/1) or [all issues](https://github.com/The-Last-Founder/Build/issues)
+
+### Submit new issues
+See anything broken or worth improving?
+[Let us know](https://github.com/The-Last-Founder/Build/issues/new)
+
 ## Goals
 
-1. Learn by shipping with AI agents for startups. Explore [tools](https://github.com/The-Last-Founder/Build/blob/main/Tools.md) such as Cofounder.co, Claude Tag, paperclip.ing, and more.
+1. Learn by shipping with AI agents for startups. Explore [tools](https://github.com/The-Last-Founder/Build/blob/main/TOOLS.md) such as Cofounder.co, Claude Tag, paperclip.ing, and more.
 2. Teach each other what actually works.
-3. Build and launch a real MVP.
+3. Build and launch a real [MDP](research/mdp-vs-mvp.md) — the smallest thing someone will genuinely love.
+
+## Research
+
+- [The AI Agent / Multi-Agent / Autonomous-Company Enabling Stack (Mid-2026)](research/ai-agent-multi-agent-autonomous-company-stack-mid-2026.md)
 
 ## Pilot Project
 [Quest Board](https://github.com/The-Last-Founder/quest-board), a GitHub-native quest board where humans and AI agents propose, rank, build, and launch open-source projects together.
 
 ### Other Project Options
 
+0. GPT for picking tools for Vibe Coders (based on Tools.me and more)
 1. [Johnny](https://github.com/The-Last-Founder/Johnny), a WhatsApp-native agent that helps Build.
 2. We're open to discussing other project ideas as well.  
-Ron's project ideas: [1](https://jarvis.ripper234.com/projects.html) + [2](https://workflowy.com/s/tech-projects-lst/vw9luM7GqabbgG0b).
+
+[Ron's project ideas](https://github.com/ripper234/projects)
 
 **Pull requests welcome**!
 
 ## How we'll do it
 We're starting with a Cofounder.co project.  
 See [our principles to working with Cofounder.co](https://github.com/The-Last-Founder/Build/blob/main/CoFounder.co.md). 
-
-For launch collateral, see the [intro video brief](https://github.com/The-Last-Founder/Build/blob/main/design/INTRO_VIDEO.md).
+For launch collateral, see the [intro video brief](design/INTRO_VIDEO.md), [rendered video outputs](artifacts/videos), the selected [WhatsApp group icon SVG](design/whatsapp-group-icons/build-whatsapp-icon.svg), its [PNG export](design/whatsapp-group-icons/build-whatsapp-icon.png), and [alternatives](design/whatsapp-group-icons).
 
 ## About Us
 
@@ -57,6 +71,19 @@ Potentially, some or all of the revenue could be funneled back into this open-so
 ## Will (all?) the tools & projects we produce be open source?
 
 Open question - TODO
+
+## What's the incentive of people to share their ideas with the community & world?
+
+TODO
+
+Some thoughts are:
+1. Gather more project members, traffic/ users, funding
+2. Get advice and help on building
+3. ...
+
+=== But isn't that dangerous? Won't someone copy them?
+TODO
+
 
 ## ADD YOUR OWN QUESTIONS
 

@@ -144,7 +144,8 @@ https://www.linkedin.com/posts/lee-twito_70-our-claude-code-tips-share-747721042
 Possible future chapters:
 
 - Product discovery with AI
-- MVP scoping
+- Token Economy (how to achive more with less)
+- [MDP/MVP scoping](research/mdp-vs-mvp.md)
 - Agentic coding workflows
 - AI-assisted design
 - Testing and QA
