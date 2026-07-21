@@ -59,6 +59,7 @@ The table is sorted roughly by first-sprint usefulness, then by Johnny MVP relev
 | [**open-bsp-api**](https://github.com/matiasbattocchia/open-bsp-api) | Johnny | WhatsApp / Instagram infra | Self-hostable WhatsApp and Instagram Business API platform by Matías Battocchia. | Most directly relevant infrastructure candidate for Johnny’s WhatsApp-native MVP. | Active OSS. | Small repo, very high strategic relevance. |
 | [Any.do](https://www.any.do/) | Johnny | Task management | Tasks, lists, calendar, reminders, WhatsApp task capture, AI assistant, and team boards. | Integration candidate and UX reference for Johnny’s tasks, reminders, and AI-assisted task capture. | Mature commercial product. | Mature product; WhatsApp support; 40M+ users claimed. |
 | [monday.com](https://monday.com/) | Johnny | Work management | Work OS for teams, projects, workflows, CRM, dev, service, automations, and AI agents. | Integration candidate for teams that outgrow Markdown task files. | Mature commercial product. | Mature AI work platform. |
+| [Linear](https://linear.app/) | Both | Project management / issue tracking | Issue tracker and project management tool for software teams, with AI-powered features, cycles, roadmaps, and GitHub integration. | Natural fit for tracking Build tasks and issues alongside GitHub; cleaner and faster alternative to Jira; integration candidate for team and Johnny workflows. | Mature commercial product. | Widely adopted among startup engineering teams; strong 2026 mindshare. |
 
 ## Notes
 
