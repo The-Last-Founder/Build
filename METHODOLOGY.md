@@ -1,6 +1,6 @@
 # Methodology
 
-Build is a learn-by-shipping community for building real products with AI agents.
+Build is a learn-by-shipping-together community for building real products with AI agents.
 
 This file is the seed of a future methodology book: how to use AI across the whole startup-building process.
 
