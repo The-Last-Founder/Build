@@ -307,3 +307,4 @@ Duck music by additional −6 dB during CTA card.
 
 Subtitles / captions: burn-in white text with a thin black outline (`stroke_width=2`)
 so the video is readable without sound — important for autoplay-muted social contexts.
+
