@@ -181,7 +181,7 @@ def scene_what() -> list[tuple[Image.Image, float]]:
     img = make_base()
     d = ImageDraw.Draw(img)
     draw_label(d, "What We Are")
-    draw_centered_text(d, "Build is an open-source\nlearn-by-shipping community", H // 2 - 60,
+    draw_centered_text(d, "Build is an open-source\nlearn-by-shipping-together community", H // 2 - 60,
                        FONT_BOLD, 50, TEXT_PRI, max_chars=38)
     draw_centered_text(d, "for people building with agents.", H // 2 + 60,
                        FONT_BOLD, 44, ACCENT, max_chars=40)
@@ -315,7 +315,7 @@ def scene_end_card() -> list[tuple[Image.Image, float]]:
 
     draw_centered_text(
         d,
-        "Build is an open-source learn-by-shipping community\n"
+        "Build is an open-source learn-by-shipping-together community\n"
         "where humans and AI agents build a real startup together in public.",
         600,
         FONT_REGULAR, 26, NEUTRAL, max_chars=60,

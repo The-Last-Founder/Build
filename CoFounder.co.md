@@ -10,7 +10,7 @@ Shipping is how we level up.
 
 This document captures how Build will use **Cofounder.co** as part of the community’s work.
 
-Build is not just one project. It is an open-source, learn-by-shipping community that will launch multiple real products with agents.
+Build is not just one project. It is an open-source, learn-by-shipping-together community that will launch multiple real products with agents.
 
 Therefore, the Cofounder.co account should be set up for **Build as the parent project**, not only for Johnny.
 
