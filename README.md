@@ -7,7 +7,7 @@ Build is an open-source [learn-by-shipping-together](https://blog.learningbyship
 
 We'll build a real open-source startup together: choose a pilot, spec the MVP, code, deploy, market, and learn what actually works.
 
-[Join the Community via WhatsApp](https://chat.whatsapp.com/DgKpG63438y8N7D3pHJ57t).
+[Join the Community via WhatsApp](https://chat.whatsapp.com/DgKpG63438y8N7D3pHJ57t) and join our [weekly Cowork sessions on Monday](https://github.com/The-Last-Founder/Build/blob/main/COWORK.md). 
 
 ## What to work on
 ### Existing issues
