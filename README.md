@@ -1,4 +1,4 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/39fbfdb7-5dda-48c8-942c-2e6871fb5911" />
+<img width="1536" height="1024" alt="image" src="media/build-hero-learn-by-shipping-together.svg" />
 
 
 # Welcome
