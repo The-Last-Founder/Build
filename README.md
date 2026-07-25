@@ -3,7 +3,7 @@
 
 # Welcome
 
-Build is an open-source [learn-by-shipping](https://blog.learningbyshipping.com/2013/01/03/hello-world/) community for people building with agents.
+Build is an open-source [learn-by-shipping-together](https://blog.learningbyshipping.com/2013/01/03/hello-world/) community for people building with agents.
 
 We'll build a real open-source startup together: choose a pilot, spec the MVP, code, deploy, market, and learn what actually works.
 
@@ -19,7 +19,7 @@ See anything broken or worth improving?
 
 ## Goals
 
-1. Learn by shipping with AI agents for startups. Explore [tools](https://github.com/The-Last-Founder/Build/blob/main/TOOLS.md) such as Cofounder.co, Claude Tag, paperclip.ing, and more.
+1. Learn by shipping together with AI agents for startups. Explore [tools](https://github.com/The-Last-Founder/Build/blob/main/TOOLS.md) such as Cofounder.co, Claude Tag, paperclip.ing, and more.
 2. Teach each other what actually works.
 3. Build and launch a real [MDP](research/mdp-vs-mvp.md) — the smallest thing someone will genuinely love.
 

@@ -88,7 +88,7 @@ The growth mechanism for Build is word-of-mouth: contributors tell peers, who jo
 
 ### 4. We're modeling what good product-making looks like
 
-Build is a *learn-by-shipping* community. The products we ship are demonstrations of good practice. Building to MDP rather than MVP sends a signal about the standard we hold ourselves to.
+Build is a *learn-by-shipping-together* community. The products we ship are demonstrations of good practice. Building to MDP rather than MVP sends a signal about the standard we hold ourselves to.
 
 ---
 

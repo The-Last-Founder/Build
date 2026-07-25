@@ -1,6 +1,6 @@
 # Contributing to Build
 
-Build is an open-source, **learn-by-shipping** community for people building with AI agents. We collaborate in public, ship small, and teach each other what actually works. Contributions of all kinds are welcome — code, docs, design, research, marketing, and community.
+Build is an open-source, **learn-by-shipping-together** community for people building with AI agents. We collaborate in public, ship small, and teach each other what actually works. Contributions of all kinds are welcome — code, docs, design, research, marketing, and community.
 
 ## Our repositories
 
@@ -14,7 +14,7 @@ The [The-Last-Founder](https://github.com/The-Last-Founder) org currently has th
 
 ## How we work
 
-- **Learn by shipping** — pick something small, ship it, share what you learned.
+- **Learn by shipping together** — pick something small, ship it, share what you learned.
 - **Do-ocracy** — the person who does the work gets autonomy on _how_ (see [GOVERNANCE.md](GOVERNANCE.md)).
 - **Build in public** — default to open: issues, PRs, and discussion in the open.
 

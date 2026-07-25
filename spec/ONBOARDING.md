@@ -34,7 +34,7 @@ Create a GPT-like onboarding flow that:
 
 ## Assistant Opening (Draft)
 
-Build is an open-source learn-by-shipping community for building real products with AI agents.  
+Build is an open-source learn-by-shipping-together community for building real products with AI agents.  
 We collaborate in public, ship small, and learn what works.
 
 Start here:

@@ -45,7 +45,7 @@ Voiceover:
 Visuals: Build logo/title, subtle game-party framing, people joining a shared quest board.  
 Voiceover:
 
-> Build is an open-source learn-by-shipping community for people building with agents.  
+> Build is an open-source learn-by-shipping-together community for people building with agents.  
 > We pick a real startup idea, build it together in public, and learn what actually works.
 
 **0:28-0:46 — Why it matters**  
@@ -161,7 +161,7 @@ Voiceover:
 
 ## Best single-line pitch
 
-> Build is an open-source learn-by-shipping community where humans and AI agents build a real startup together in public.
+> Build is an open-source learn-by-shipping-together community where humans and AI agents build a real startup together in public.
 
 ---
 
