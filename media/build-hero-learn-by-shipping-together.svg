@@ -3,7 +3,7 @@
   <desc id="desc">Original Build hero image with a small, tasteful “(together)” addition.</desc>
   <image href="https://github.com/user-attachments/assets/39fbfdb7-5dda-48c8-942c-2e6871fb5911" width="1536" height="1024" preserveAspectRatio="xMidYMid slice" />
   <g transform="translate(1138 622)">
-    <rect x="-16" y="-30" rx="16" ry="16" width="306" height="58" fill="#111827" fill-opacity="0.72" />
+    <rect x="-16" y="-30" rx="16" ry="16" width="306" height="58" fill="#111827" fill-opacity="0.9" />
     <text x="136" y="6" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="32" font-weight="600" fill="#ffffff">(together)</text>
   </g>
 </svg>
