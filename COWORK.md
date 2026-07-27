@@ -1,5 +1,4 @@
-<img width="1122" height="1402" alt="image" src="https://github.com/user-attachments/assets/c02e00df-bd50-4dc1-a4bb-0a196fac071f" />
-
+<img width="421" height="526" alt="image" src="https://github.com/user-attachments/assets/c02e00df-bd50-4dc1-a4bb-0a196fac071f" />
 
 # Build Cowork
 
