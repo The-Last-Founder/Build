@@ -1,4 +1,4 @@
-<img width="421" height="526" alt="image" src="https://github.com/user-attachments/assets/c02e00df-bd50-4dc1-a4bb-0a196fac071f" />
+<img width="421" height="526" alt="BUILD AI Cowork" src="design/cowork-banner.svg" />
 
 # Build Cowork
 
