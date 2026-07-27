@@ -1,3 +1,6 @@
+<img width="1122" height="1402" alt="image" src="https://github.com/user-attachments/assets/c02e00df-bd50-4dc1-a4bb-0a196fac071f" />
+
+
 # Build Cowork
 
 Build Cowork is the weekly working space of [Build](https://github.com/The-Last-Founder/Build), an open-source learn-by-shipping community for people building with AI agents. Bring any task and use the shared space for focus, support, consultation, or collaboration.
