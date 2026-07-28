@@ -1,4 +1,4 @@
-<img width="421" height="526" alt="image" src="https://github.com/user-attachments/assets/c02e00df-bd50-4dc1-a4bb-0a196fac071f" />
+<img width="421" height="526" alt="BUILD/AI Cowork Mondays" src="https://github.com/user-attachments/assets/8adc4e87-638d-4b0e-80de-9d3e8d84de62" />
 
 # Build Cowork
 
