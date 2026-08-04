@@ -3,8 +3,6 @@
 
 # Welcome
 
-> Build open-source MVPs together with state-of-the-art AI tools — learn, teach, and ship products that gain real traction.
-
 Build is an open-source [learn-by-shipping-together](https://blog.learningbyshipping.com/2013/01/03/hello-world/) community for people building with agents.
 
 We'll build a real open-source startup together: choose a pilot, spec the MVP, code, deploy, market, and learn what actually works.
