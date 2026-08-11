@@ -34,7 +34,8 @@ See anything broken or worth improving?
 
 0. GPT for picking tools for Vibe Coders (based on Tools.me and more)
 1. [Johnny](https://github.com/The-Last-Founder/Johnny), a WhatsApp-native agent that helps Build.
-2. We're open to discussing other project ideas as well.  
+2. **[Build Cowork Agent](COWORK_AGENT.md)** ⭐ **(high priority)** — an agent that runs on the weekly Monday Cowork schedule to prep the facilitator, send WhatsApp messages, collect the Zoom recording & transcript, generate an intelligent summary, and post it back to the group.
+3. We're open to discussing other project ideas as well.  
 
 [Ron's project ideas](https://github.com/ripper234/projects)
 
