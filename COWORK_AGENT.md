@@ -1,3 +1,5 @@
+<img  height="512" alt="image" src="https://github.com/user-attachments/assets/aa8cd5cb-10c9-4d80-a6be-6e0680283066" />
+
 # Build Cowork Agent
 
 ## Overview
