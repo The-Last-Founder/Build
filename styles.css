@@ -116,6 +116,11 @@ nav a:hover {
   color: #fff;
 }
 
+.btn-slack {
+  background: #4A154B;
+  color: #fff;
+}
+
 .btn-secondary {
   background: #0f172a;
   color: #fff;
