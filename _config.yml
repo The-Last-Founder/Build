@@ -1,0 +1,26 @@
+# GitHub Pages configuration
+# Docs: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
+
+title: "Build — Open-Source Community for AI-Powered Startups"
+description: "Learn-by-shipping-together community for people building with AI agents."
+url: "https://the-last-founder.github.io"
+baseurl: "/Build"
+
+# Tell Jekyll not to use a theme — we ship our own index.html + styles.css
+theme: null
+
+# Exclude files that are not part of the site
+exclude:
+  - "*.md"
+  - "research/"
+  - "design/"
+  - "decks/"
+  - "meetings/"
+  - "spec/"
+  - "artifact/"
+  - "artifacts/"
+  - "cofounder/"
+  - "media/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules/"
