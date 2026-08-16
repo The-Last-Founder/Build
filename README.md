@@ -9,6 +9,8 @@ We'll build a real open-source startup together: choose a pilot, spec the MVP, c
 
 [Join the Community via WhatsApp](https://chat.whatsapp.com/DgKpG63438y8N7D3pHJ57t) and join our [weekly Cowork sessions on Monday](https://github.com/The-Last-Founder/Build/blob/main/COWORK.md). 
 
+[![Join our Slack](https://img.shields.io/badge/Slack-Join%20our%20community-4A154B?logo=slack&logoColor=white&style=for-the-badge)](https://join.slack.com/t/thelastfounder/shared_invite/zt-45c6zii04-aAh4RpaB9_1UtfpzTN0iZw)
+
 ## What to work on
 ### Existing issues
 [High priority tasks](https://github.com/orgs/The-Last-Founder/projects/1) or [all issues](https://github.com/The-Last-Founder/Build/issues)
