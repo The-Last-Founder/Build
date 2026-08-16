@@ -89,3 +89,30 @@ TODO
 ## ADD YOUR OWN QUESTIONS
 
 Send pull requests.
+
+---
+
+# Community Website (GitHub Pages)
+
+The community portal lives at **[https://the-last-founder.github.io/Build/](https://the-last-founder.github.io/Build/)** and is built from `index.html` + `styles.css` at the root of this repository.
+
+## How to enable GitHub Pages (one-time setup for maintainers)
+
+1. Go to **[github.com/The-Last-Founder/Build](https://github.com/The-Last-Founder/Build)**.
+2. Click **Settings** (top navigation bar of the repository page).
+3. In the left sidebar, click **Pages** (under "Code and automation").
+4. Under **Source**, select **Deploy from a branch**.
+5. Under **Branch**, choose `main` and set the folder to `/ (root)`, then click **Save**.
+6. GitHub builds the site automatically. After ~1 minute your page goes live at `https://the-last-founder.github.io/Build/`.
+
+## Custom domain (optional)
+
+1. Add a file named `CNAME` to the root of the repo, containing only your custom domain — for example `build.thelastfounder.com`.
+2. At your DNS provider, add a `CNAME` record pointing your subdomain to `the-last-founder.github.io`.
+3. Back in **Settings → Pages**, enter the custom domain and enable **Enforce HTTPS** once the certificate is provisioned (usually a few minutes).
+
+## Editing the site
+
+- **Content / structure**: edit `index.html`.
+- **Styles**: edit `styles.css`.
+- **Jekyll config**: edit `_config.yml` (controls title, description, URL, and which files Jekyll excludes from the build).

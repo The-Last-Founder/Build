@@ -344,6 +344,11 @@ code {
   font-size: 0.9em;
 }
 
+/* ===== Section sub-heading spacing ===== */
+.section-subheading {
+  margin-top: 2.5rem;
+}
+
 /* ===== Footer ===== */
 .site-footer-bottom {
   background: #0f172a;
